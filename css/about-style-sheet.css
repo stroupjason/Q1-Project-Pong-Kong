@@ -1,0 +1,90 @@
+#map {
+  height: 100%;
+}
+
+html, body {
+  height: 75%;
+  width: 100%;
+  margin-top: 5% 5%;
+  padding-top: : -10%;
+  padding-right: 0%;
+  padding-right: 0%;
+}
+
+
+/* label color */
+
+.input-field label {
+  color: #000;
+}
+
+
+/* label focus color */
+
+.input-field input[type=text]:focus+label {
+  color: #000;
+}
+
+
+/* label underline focus color */
+
+.input-field input[type=text]:focus {
+  border-bottom: 1px solid #000;
+  box-shadow: 0 1px 0 0 #000;
+}
+
+
+/* valid color */
+
+.input-field input[type=text].valid {
+  border-bottom: 1px solid #000;
+  box-shadow: 0 1px 0 0 #000;
+}
+
+
+/* invalid color */
+
+.input-field input[type=text].invalid {
+  border-bottom: 1px solid #000;
+  box-shadow: 0 1px 0 0 #000;
+}
+
+
+/* icon prefix focus color */
+
+.input-field .prefix.active {
+  color: #000;
+}
+
+h4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Indie Flower', cursive;
+}
+
+h5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5%;
+  font-family: 'Raleway', sans-serif;
+}
+
+h6 {
+  display: flex;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Indie Flower', cursive;
+  font-size: 8em;
+}
+
+.div {
+  padding-top: -100%;
+}
+
+div.row {
+  padding-top: 0%;
+}
